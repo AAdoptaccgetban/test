@@ -24,6 +24,8 @@ OrionLib:MakeNotification({
     Time = 5
 })
 
+Tab:AddLabel("City Farm")
+
 Tab:AddButton({
     Name = "City Red Orb",
     Callback = function()
@@ -49,7 +51,9 @@ Tab:AddButton({
         end
     end
 })
---space
+
+Tab:AddLabel("Magma Farm")
+
 Tab:AddButton({
     Name = "Magma City Red Orb",
     Callback = function()
