@@ -75,3 +75,16 @@ Tab:AddButton({
         end
     end
 })
+
+local Tab = Window:MakeTab({
+    Name = "Auto Race",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Auto Race Coming Soon",
+	Callback = function()
+      		--code here
+  	end    
+})
