@@ -8,7 +8,7 @@ local Window = OrionLib:MakeWindow({
 })
 
 local Tab = Window:MakeTab({
-    Name = "City Auto Farm",
+    Name = "Auto Farm",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -17,6 +17,12 @@ local Section = Tab:AddSection({
     Name = "Section"
 })
 
+OrionLib:MakeNotification({
+    Name = "Title!",
+    Content = "Notification content... what will it say??",
+    Image = "rbxassetid://4483345998",
+    Time = 5
+})
 
 Tab:AddButton({
     Name = "City Red Orb",
@@ -43,26 +49,7 @@ Tab:AddButton({
         end
     end
 })
-
 --space
-
-local Tab = Window:MakeTab({
-    Name = "Magma Auto Farm",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-    Name = "Section"
-})
-
-OrionLib:MakeNotification({
-    Name = "Title!",
-    Content = "Notification content... what will it say??",
-    Image = "rbxassetid://4483345998",
-    Time = 5
-})
-
 Tab:AddButton({
     Name = "Magma City Red Orb",
     Callback = function()
@@ -88,5 +75,3 @@ Tab:AddButton({
         end
     end
 })
-})
-
