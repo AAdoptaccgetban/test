@@ -17,12 +17,6 @@ local Section = Tab:AddSection({
     Name = "Section"
 })
 
-OrionLib:MakeNotification({
-    Name = "Title!",
-    Content = "Notification content... what will it say??",
-    Image = "rbxassetid://4483345998",
-    Time = 5
-})
 
 Tab:AddButton({
     Name = "City Red Orb",
@@ -94,10 +88,5 @@ Tab:AddButton({
         end
     end
 })
-            for i = 1, 200 do
-                game:GetService('ReplicatedStorage').rEvents.orbEvent:FireServer("collectOrb", "Red Orb", "Magma City")
-            end
-        end
-    end
 })
 
