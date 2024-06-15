@@ -9,7 +9,7 @@ local Window = OrionLib:MakeWindow({
 
 local Tab = Window:MakeTab({
     Name = "Auto Farm",
-    Icon = "rbxassetid://4483345998",
+    Icon = "rbxassetid://17616325905",
     PremiumOnly = false
 })
 
